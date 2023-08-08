@@ -1,0 +1,192 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h1 {
+    color: #362c26;
+    font-family: 'Island Moments', cursive;
+    display: inline-block;
+}
+
+#navbarSupportedContent {
+    margin-left: 20%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    color: #362c26;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline solid #362c26;
+    color: #362c26;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    color: #362c26;
+}
+
+p {
+    color: #362c26;
+    font-size: 18px;
+}
+
+.country {
+    fill: #362c26;
+    stroke: #957a6a;
+}
+
+.country:hover {
+    fill: #660d33;
+    stroke: black;
+}
+
+
+
+hr {
+    color: #362c26;
+}
+
+
+
+.budgetFeedback,
+.expenseFeedback {
+  display: none;
+}
+
+#budgetForm {
+    border-radius: 20% 5%;
+    box-shadow: 10px 10px 5px #6c6657;
+    padding: 3%;
+}
+
+#budgetSubmit {
+    border-radius: 20% 5%;
+    box-shadow: 5px 5px 5px #6c6657;
+}
+
+
+#expenseForm {
+    border-radius: 20% 5%;
+    box-shadow: 10px 10px 5px #660d33;
+    padding: 3%;
+}
+
+#expenseSubmit {
+    border-radius: 20% 5%;
+    box-shadow: 5px 5px 5px #660d33;
+}
+
+.expenseAmount, .expenseTitle {
+    color: #660d33;
+}
+
+.showItem {
+    display: block;
+}
+
+.infoTitle {
+    font-size: 20px;
+}
+
+#budget {
+    color: #6c6657;
+}
+
+#expense {
+    color: #660d33;
+}
+
+.showRed {
+    color:#660d33;
+}
+
+.showGreen {
+    color: #6c6657;
+}
+
+.showBlack {
+    color: #362c26;
+}
+
+
+
+
+#links {
+    margin-top: 3%;
+    margin-left: -4%;
+}
+
+footer {
+    margin-bottom: 5%;
+}
+
+.icon {
+    height: 50px;
+    width: auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px #660d33;
+}
+
+
+
+@media screen and (max-width: 1399.9px){
+    .nav-item a {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1199.9px){
+    .nav-item a {
+        font-size: 20px;
+        margin: 0;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    #apps {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 991.9px) {
+    svg {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+@media screen and (max-width: 767.9px) {
+    .icon {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    footer p {
+        font-size: 35px;
+    }
+}

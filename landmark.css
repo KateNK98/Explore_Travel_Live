@@ -1,0 +1,168 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h1 {
+    color: #362c26;
+    font-family: 'Island Moments', cursive;
+    display: inline-block;
+}
+
+#navbarSupportedContent {
+    margin-left: 20%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    color: #362c26;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline solid #362c26;
+    color: #362c26;
+}
+
+
+
+.container > .row h2 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    color: #362c26;
+}
+
+
+h4 {
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    color: #362c26;
+    margin-bottom: 3%;
+    margin-top: 7%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#text a{
+    text-decoration: none;
+}
+
+#text a:hover {
+    text-decoration: underline dotted #362c26 5px;
+}
+
+#text img {
+    border-radius: 20% 5%;
+    box-shadow: 10px 10px 5px #6c6657;
+    height: auto;
+    width: 85%;
+}
+
+
+#text p {
+    margin-top: 7%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+
+
+#text .row .col:nth-child(3) {
+    border-radius: 5% 20%;
+    box-shadow: 10px 10px 5px #927b6c;
+}
+
+#links {
+    margin-top: 3%;
+    margin-left: -4%;
+}
+
+footer {
+    margin-bottom: 5%;
+}
+
+.icon {
+    height: 50px;
+    width: auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px #660d33;
+}
+
+#back {
+    height: 50px;
+    width: auto;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1399.9px){
+    .nav-item a {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1199.9px){
+    .nav-item a {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 991.9px){
+    #text img {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 767.9px) {
+    .icon {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    footer p {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 575.9px) {
+    #text .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #text h2 {
+        font-size: 10vw;
+    }
+    #text h4 {
+        font-size: 10vw;
+    }
+}

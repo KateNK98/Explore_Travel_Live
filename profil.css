@@ -1,0 +1,132 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h1 {
+    color: #362c26;
+    font-family: 'Island Moments', cursive;
+    display: inline-block;
+}
+
+#navbarSupportedContent {
+    margin-left: 20%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    color: #362c26;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline solid #362c26;
+    color: #362c26;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    color: #362c26;
+}
+
+.btn {
+    background-color: #927b6c;
+    color: white;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-border-color: #927b6c;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #927b6c;
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: #927b6c;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+
+
+
+#links {
+    margin-top: 3%;
+    margin-left: -4%;
+}
+
+footer {
+    margin-bottom: 5%;
+}
+
+.icon {
+    height: 50px;
+    width: auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px #660d33;
+}
+
+#back {
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+
+
+@media screen and (max-width: 1399.9px){
+    .nav-item a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1199.9px){
+    .nav-item a {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .icon {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    footer p {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 401.9px){
+    #change {
+        margin-top: 5%;
+    }
+    #change1 {
+        margin-top: 5%;
+    }
+}
+
