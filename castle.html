@@ -139,5 +139,17 @@
 				</div>
 			</footer>	
 		</div>
+		<script>
+			let NavHover = document.querySelectorAll(".nav-item");
+			NavHover.forEach( item => {
+				item.addEventListener('mouseover', (e) => {
+					item.style.borderBottomStyle = "solid";
+					item.style.borderWidth = "1px";
+				});
+				item.addEventListener('mouseout', (e) => {
+					item.style.borderBottomStyle = "none";
+				});
+			});
+		</script>
 	</body>
 </html>
