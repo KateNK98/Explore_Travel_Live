@@ -68,11 +68,13 @@
 
 			<div id="rlandmarks" class="row mt-5">
 				<div id="brown1" class="col-6">
-					<div class="col mt-5">
-						<a href="landmark.html"><h3>Забележителности</h3></a>
-						<p class="pt-3 ps-2 pe-2 pb-md-3">Тук може да видите красиви и екзотични места, за които не сте и сънували, че съществуват. Разгледайте внимателно и си изберете дестинация за следващото Ви пътуване.</p>
-					</div>
-				</div>				
+					<a href="landmark.html" >
+						<div class="col mt-5">
+							<h3 class="titleLine1">Забележителности</h3>
+							<p class="pt-3 ps-2 pe-2 pb-md-3">Тук може да видите красиви и екзотични места, за които не сте и сънували, че съществуват. Разгледайте внимателно и си изберете дестинация за следващото Ви пътуване.</p>
+						</div>
+					</a>
+				</div>			
 				<div class="col-6">
 					<img id="chines" class="img-fluid" src="images/landmarks-min.jpg" alt="Великата Китайска стена">
 				</div>
@@ -83,21 +85,27 @@
 					<img id="culture" class="img-fluid" src="images/culture-min.jpg" alt="Култура">
 				</div>
 				<div id="cculture" class="col-6 pt-3">
-					<a href="culture.html"><h3>Любопитно</h3></a>
-					<p class="pt-3">Тук ще намерите интересни култури и традиции от цял свят.</p>
-					<img id="philipin" class="img-fluid" src="images/philipin-min.jpg" alt="Хули">
+					<a href="culture.html">
+						<h3 class="titleLine2">Любопитно</h3>
+						<p class="pt-3">Тук ще намерите интересни култури и традиции от цял свят.</p>
+						<img id="philipin" class="img-fluid" src="images/philipin-min.jpg" alt="Хули">
+					</a>
 				</div>          	
 			</div>
 			
 			<div class="row mt-5 mb-5">
 				<div id="green_brown" class="col">
-					<a href="budget.html"><h3 class="pt-4">Бюджет</h3></a>
-					<p class="pt-4 ps-2 pe-2">Тук може да пресметнете какъв бюджет ще ви е необходим за вашето пътуване. Въвеждате сумата, която може да отделите за пътуването. След това въвеждате разходите, като например: самолетни билети, хотел, храна, входове за музеи, забавления и т.н. Апликацията автоматично смята с колко пари ще останете, след като извади разходите.</p>
+					<a href="budget.html">
+						<h3 class="pt-4 titleLine3">Бюджет</h3>
+						<p class="pt-4 ps-2 pe-2">Тук може да пресметнете какъв бюджет ще ви е необходим за вашето пътуване. Въвеждате сумата, която може да отделите за пътуването. След това въвеждате разходите, като например: самолетни билети, хотел, храна, входове за музеи, забавления и т.н. Апликацията автоматично смята с колко пари ще останете, след като извади разходите.</p>
+					</a>
 				</div>
 				<div id="brown2" class="col">
-					<a href="profil.html"><h3 class="pt-4">Профил</h3></a>
-					<p class="pt-4 ps-3 pe-2">Регистрирайте се, за да се възползвате от виртуалната карта. Ако вече имате профил, може да се впишете от формата по-долу.</p>
-					<a href="profil.html"><img src="images/registered-regular.svg" alt="Регистрация"></a>			
+					<a href="profil.html">
+						<h3 class="pt-4 titleLine4">Профил</h3>
+						<p class="pt-4 ps-3 pe-2">Регистрирайте се, за да се възползвате от виртуалната карта. Ако вече имате профил, може да се впишете от формата по-долу.</p>
+						<img src="images/registered-regular.svg" alt="Регистрация">
+					</a>			
 				</div>
 			</div>	
 		</div>
@@ -128,5 +136,59 @@
 			</div>
 		</footer>
 	</div>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			let title1 = document.querySelector(".titleLine1");
+			let hover1 = document.querySelector('#brown1');
+            hover1.addEventListener('mouseover', (e) => {
+				title1.style.textDecoration = "underline dotted 5px";
+            });
+			hover1.addEventListener('mouseout', (e) => {
+				title1.style.textDecoration = "none";
+            });
+
+			let title2 = document.querySelector(".titleLine2");
+			let hover2 = document.querySelector('#cculture');
+            hover2.addEventListener('mouseover', (e) => {
+				title2.style.textDecoration = "underline dotted 5px";
+            });
+			hover2.addEventListener('mouseout', (e) => {
+				title2.style.textDecoration = "none";
+            });
+
+			let title3 = document.querySelector(".titleLine3");
+			let hover3 = document.querySelector('#green_brown');
+            hover3.addEventListener('mouseover', (e) => {
+				title3.style.textDecoration = "underline dotted 5px";
+            });
+			hover3.addEventListener('mouseout', (e) => {
+				title3.style.textDecoration = "none";
+            });
+
+			let title4 = document.querySelector(".titleLine4");
+			let hover4 = document.querySelector('#brown2');
+            hover4.addEventListener('mouseover', (e) => {
+				title4.style.textDecoration = "underline dotted 5px";
+            });
+			hover4.addEventListener('mouseout', (e) => {
+				title4.style.textDecoration = "none";
+            });
+
+
+			let NavHover = document.querySelectorAll(".nav-item");
+			NavHover.forEach( item => {
+				item.addEventListener('mouseover', (e) => {
+					item.style.borderBottomStyle = "solid";
+					item.style.borderWidth = "1px";
+				});
+				item.addEventListener('mouseout', (e) => {
+					item.style.borderBottomStyle = "none";
+				});
+			});
+
+		});
+	</script>
+
 </body>
 </html>
