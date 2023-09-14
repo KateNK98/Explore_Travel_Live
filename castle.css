@@ -32,7 +32,6 @@ h1 {
 }
 
 .nav-item a:hover {
-    text-decoration: underline solid #362c26;
     color: #362c26;
 }
 
