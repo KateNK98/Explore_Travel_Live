@@ -32,7 +32,6 @@ h1 {
 }
 
 .nav-item a:hover {
-    text-decoration: underline solid #362c26;
     color: #362c26;
 }
 
@@ -83,6 +82,7 @@ h2 {
     justify-content: center;
     text-align: center;
     box-shadow: 15px 15px 10px #660d33;
+    
 }
 
 #chines {
@@ -96,9 +96,6 @@ h2 {
     color: black;
 }
 
-#brown1 a:hover {
-    text-decoration: underline dotted 5px;
-}
 
 #brown1 p {
     font-size: 20px;
@@ -128,9 +125,7 @@ h2 {
     color: black;
 }
 
-#cculture a:hover {
-    text-decoration: underline dotted 5px;
-}
+
 
 #cculture p {
     font-size: 20px;
@@ -153,6 +148,7 @@ h2 {
     margin-right: 2%;
     text-align: center;
     box-shadow: 15px 15px 10px #660d33 inset;
+    text-decoration: none;
 }
 
 #green_brown a  {
@@ -160,9 +156,6 @@ h2 {
     color: black;
 }
 
-#green_brown a:hover {
-    text-decoration: underline dotted 5px;
-}
 
 #green_brown p {
     font-size: 20px;
@@ -190,9 +183,7 @@ h2 {
     color: black;
 }
 
-#brown2 a:hover {
-    text-decoration: underline dotted 5px;
-}
+
 
 #brown2 p {
     font-size: 20px;
